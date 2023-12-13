@@ -1,0 +1,13 @@
+# script to create a new directory named "devops" and make three files in that particular directory
+#!/bin/bash
+set -x
+set -o
+set -e
+# make a directory
+mkdir DevOpsScripts
+#to change directory to DevOpsScripts 
+cd DevOpsScripts
+# to create new files in DevOpsScripts 
+touch script1.sh
+touch script2.sh
+touch script3.sh

@@ -1,0 +1,8 @@
+#basic shell script
+#to check free space in disk
+#!/bin/bash
+set -x 
+set -o 
+set -e
+# to check free space 
+free -g
